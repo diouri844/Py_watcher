@@ -22,9 +22,9 @@ class Watcher(object):
                     # ask user to run this file :
                     response = input("Rerun file ? (Y/N) ")
                     if response == 'Y':
-                        print("run ........")
+                        print(" :) ........")
                         my_executer = Executer(self.filename.split('.')[1],self.filename)
                         my_executer.Run()
                     else:
-                        print("don't run :) ")
+                        print("we wait :( ")
         return
